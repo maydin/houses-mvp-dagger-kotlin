@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Houses</string>
+    <string name="no_houses_all">You have no houses!</string>
+    <string name="loading_houses_error">Error while loading houses</string>
+    <string name="title_activity_main">House List</string>
+    <string name="title_activity_house_detail">HouseDetailActivity</string>
+    <string name="house_name">Name:</string>
+    <string name="house_region">Region:</string>
+    <string name="house_coatofarms">CoatofArms:</string>
+    <string name="house_founded">Founded:</string>
+    <string name="house_not_found">House not found, please refresh house list</string>
+</resources>

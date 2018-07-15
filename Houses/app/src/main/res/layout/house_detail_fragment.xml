@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".housedetail.HouseDetailFragment"
+    tools:showIn="@layout/house_detail_activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/card_padding"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/house_name"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/info_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="name"
+            android:layout_marginBottom="@dimen/text_bottom_margin"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/house_region"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/info_text_region"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="region"
+            android:layout_marginBottom="@dimen/text_bottom_margin"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/house_coatofarms"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/info_text_coatofarms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="coatofarms"
+            android:layout_marginBottom="@dimen/text_bottom_margin"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/house_founded"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/info_text_founded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="founded"
+            android:layout_marginBottom="@dimen/text_bottom_margin"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
